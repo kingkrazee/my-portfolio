@@ -1,0 +1,52 @@
+.navbar-brand >img{
+    width: 50px;
+    height: 50px;
+}
+
+#nav {
+    background: transparent !important;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    
+    
+
+}
+body{
+    background: rgb(7,240,255);
+    background: linear-gradient(330deg, rgba(7,240,255,1) 0%, rgba(213,24,92,1) 100%);
+    height: 100vh;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.social-icons i{
+    font-size: 50px;
+}
+.myname{
+    margin-left: 10px;
+    font-family: 'Kranky';font-size: 50px;
+    color: yellow;
+}
+.nav-item a:hover{
+    border-bottom: solid 2px whitesmoke;
+    
+
+}
+.nav-item a{
+    transition: 1s;
+}
+
+.aboutkay{
+   opacity: 0.2 ;
+   width: 500px;
+   height: 550px;
+   object-fit: contain;
+   
+}
