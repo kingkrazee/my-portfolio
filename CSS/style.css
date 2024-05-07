@@ -93,7 +93,15 @@ img{
     color: yellow;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    text-decoration-color: black;
 }
 .back{
     text-align: center;
+}
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cardz{
+    color: yellow;
 }
