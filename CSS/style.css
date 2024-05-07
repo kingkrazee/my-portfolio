@@ -5,9 +5,10 @@
 
 #nav {
     background: transparent !important;
+   
 }
 
-img{
+.homekay{
     width: 500px;
     height: 500px;
     
@@ -43,10 +44,56 @@ body{
     transition: 1s;
 }
 
-.aboutkay{
-   opacity: 0.2 ;
-   width: 500px;
-   height: 550px;
-   object-fit: contain;
-   
+img{
+    width: 310px;
+    height: 310px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.front, .back{
+    width: 310px;
+    height:310px;
+    box-shadow: 10px 10px 4px 2px rgb(240, 44, 247, 0.30);
+    border-radius: 2rem;
+    position:absolute;
+    color:rgb(0, 0, 0);
+    background: rgb(7,240,255);
+    background: linear-gradient(330deg, rgba(7,240,255,1) 0%, rgba(213,24,92,1) 100%);
+    backface-visibility: hidden;
+    
+}
+.card{
+    position: relative;
+    transition: transform 1s;
+    height: 310px;
+    width: 310px;
+    transform-style: preserve-3d;
+    border-radius: 10%;
+    
+    
+}
+.container article:hover > .card{
+    transform: rotateY(180deg) rotateZ(180deg);
+    cursor: pointer;
+}
+.back{
+    transform: rotateY(180deg) rotateZ(180deg);
+}
+.container article{
+    perspective: 1000px;
+}
+.boutme{
+    font-family: 'Kranky';font-size: 50px;
+    text-align: center;
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.back{
+    text-align: center;
 }
