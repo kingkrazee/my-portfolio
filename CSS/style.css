@@ -38,12 +38,14 @@ body{
 .nav-item a:hover{
     border-bottom: solid 2px whitesmoke;
     
+    
 
 }
 .nav-item a{
     transition: 1s;
 }
 
+/*card animation*/
 img{
     width: 310px;
     height: 310px;
@@ -87,13 +89,15 @@ img{
 .container article{
     perspective: 1000px;
 }
-.boutme{
+
+/*the info on about*/
+.infoboutme{
     font-family: 'Kranky';font-size: 50px;
     text-align: center;
     color: yellow;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: black;
+    text-decoration-color: yellow;
 }
 .back{
     text-align: center;
@@ -105,3 +109,45 @@ img{
 .cardz{
     color: yellow;
 }
+.initials{
+    display: flex;
+
+}
+.developer{
+    color: black;
+}
+.myname {
+    display: inline-block;
+    font-family: 'Kranky';
+    font-size: 50px;
+  }
+
+  /*typing animation*/
+  .kh, .developer {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(40, end) forwards, blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    0%, 100% { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  /*tada animation*/
+  .animate_animated {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  .navbar-brand:not(:has(img)){
+    color: yellow;
+  }
+  
+  
