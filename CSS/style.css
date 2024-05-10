@@ -397,4 +397,40 @@ body{
   background-color: #ff9a4d9d;
   color: #000000;
 }
+.conth1{
+  font-family: 'Kranky';font-size: 50px;
+    text-align: center;
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: yellow;
+}
+.call{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.formz{
+  display: grid;
+  grid-template-columns: -2;
+}
+.rows5{
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+input{
+  border-radius: 10px;
+  background-color: #fe6e006c;
+}
+.proend{
+  border-radius: 10px;
+  background-color: #fe6e006c;
+  color: yellow;
+}
+label{
+  color: yellow;
+}
    
