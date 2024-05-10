@@ -181,7 +181,8 @@ body{
     height: 200px;
     object-fit: contain;
     border-radius: 100px;
-    border: solid yellow 5px;
+    border: solid rgba(255, 255, 0, 0.477) 5px;
+
  }
  .animate_animated {
     display: inline-block;
@@ -222,9 +223,10 @@ body{
         column-gap: 40px;
   }
   .boxed{
-    width: 300px; height: 150px; background:linear-gradient(135deg,#FE6D00,#1384C5); 
+    width: 300px; height: 150px; 
+    background:linear-gradient(135deg,#FE6D00,#1384C5); 
     border-radius: 7px;
-    border: 5px dotted yellow;
+    border: 5px dotted rgba(255, 255, 0, 0.442);
   }
   
   .rows1{
@@ -238,9 +240,11 @@ body{
     margin: 4rem;
   }
   .skills1{
+    color: yellow;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
+    text-decoration-thickness: 1.5px;
   }
   .boxed{
     transition: ease 1s;
@@ -300,6 +304,7 @@ body{
     border: 2px solid orangered;
   }
   h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
     white-space: nowrap;
     width: 0;
@@ -320,7 +325,7 @@ body{
 }
 .speechb{
   text-decoration: underline;
-  text-decoration-thickness:1.5 ;
+  text-decoration-thickness:1px ;
 }
 
 /*.testispeech{
@@ -346,3 +351,50 @@ body{
 .speechbubble{
   padding-top: 4rem;
 }
+.proshead{
+  font-family: 'Kranky';font-size: 50px;
+    text-align: center;
+    color: yellow;
+    
+}
+#pros{
+  text-decoration: underline; 
+    text-decoration-thickness: 2px;
+    text-decoration-color: yellow;
+}
+.dropdown-center, .dropdown-menu{
+  background: linear-gradient(135deg,#FE6D00,#1384C5);
+  border-radius: 7px;
+}
+.img2{
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.container1{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.card1{
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  
+  
+  
+}
+.container1{
+  padding-top: 5rem;
+  
+}
+.thebuttons{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  background-color: #ff9a4d9d;
+  color: #000000;
+}
+   
