@@ -244,7 +244,11 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
+
+    
+
     text-decoration-thickness: 1.5px;
+
   }
   .boxed{
     transition: ease 1s;
@@ -253,6 +257,12 @@ body{
 .boxed:hover{
     transform: scale(1.3);
 }
+
+.skills2{
+  padding-left: 1rem;
+}
+  
+
 .testi1{
     font-family: 'Kranky';font-size: 50px;
     text-align: center;
@@ -434,3 +444,4 @@ label{
   color: yellow;
 }
    
+
