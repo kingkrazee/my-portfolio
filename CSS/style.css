@@ -216,7 +216,7 @@ body{
     color: yellow;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: yellow;
+    
   }
   .row{
         column-gap: 40px;
