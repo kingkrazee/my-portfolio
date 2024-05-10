@@ -216,7 +216,7 @@ body{
     color: yellow;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    
+    text-decoration-color: yellow;
   }
   .row{
         column-gap: 40px;
@@ -241,7 +241,7 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
-    color: yellow;
+    
   }
   .boxed{
     transition: ease 1s;
