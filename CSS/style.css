@@ -118,6 +118,7 @@ body{
 }
 .initials{
     display: flex;
+    flex-wrap: wrap;
 
 }
 .developer{
@@ -443,5 +444,24 @@ input{
 label{
   color: yellow;
 }
+
+@media (max-width:300px) {
+#homekay{
+  width: 80rem;
+  height: auto;
+}
+img[alt='Logo']{
+  height: 20rem;
+  width: 20rem;
+  font-size: 15rem;
+}
+#kh{
+  font-size: 10rem;
+}
+
+  
+}
+
+    
    
 
